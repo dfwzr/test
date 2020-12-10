@@ -1,12 +1,4 @@
-#设置domain
-domain="aaa.com"
-#设置name
-name="bbb"
-#设置key
-key="kkkkkkkkkkkkkkk"
-#设置secret
-secret="sssssssssssss"
-#获取本地公网IP
+. ./ddns_godaddy.cfg
 currentIp=$(wget -qO- -t1 -T2 ipv4.icanhazip.com)
 #构建header
 echo "当前公网IP："$currentIp
