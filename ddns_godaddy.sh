@@ -1,4 +1,5 @@
 . ./ddns_godaddy.cfg
+#获取公网ip 如果在翻墙模式下工作，请把ipv4.icanhazip.com加入直连
 currentIp=$(wget -qO- -t1 -T2 ipv4.icanhazip.com)
 #构建header
 echo "当前公网IP："$currentIp
