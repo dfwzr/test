@@ -1,7 +1,7 @@
 #设置domain
-domain="dfwzr.com"
+domain="aaa.com"
 #设置name
-name="home"
+name="bbb"
 #设置key
 key="kkkkkkkkkkkkkkk"
 #设置secret
